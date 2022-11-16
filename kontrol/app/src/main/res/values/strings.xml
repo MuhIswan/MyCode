@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">kontrol</string>
+    <string name="home">Home</string>
+    <string name="control">Kontrol</string>
+    <string name="about">Tentang</string>
+
+
+    <string name="article_text">
+      Aplikasi ini bertujuan untuk memonitoring dan mengontrol air conditioner(AC)
+      dari jarak jauh selama alat yang dipasang di dekat AC terhubung dengan arus listrik dan internet
+      Selama itupula pengguna dapat mematikan dan menghidupkan AC dari mana saja dan kapan saja.
+    </string>
+</resources>

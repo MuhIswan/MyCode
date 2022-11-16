@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    android:orientation="vertical"
+    tools:context=".ControllActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halaman Kontrol"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/switchStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtSuhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvderajat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/txtSuhu"
+            android:text="°C"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="20dp"
+        android:paddingTop="48dp">
+
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="48dp"
+            android:text="On"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/btnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btnOn"
+            android:layout_toRightOf="@+id/btnOn"
+            android:text="Off"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnOff"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="48dp"
+            android:text="-"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnOff"
+            android:layout_marginTop="48dp"
+            android:layout_toRightOf="@id/btnMinus"
+            android:text="+"
+            android:textSize="21dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemBackground="@color/qwert"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu" />
+    </RelativeLayout>
+</LinearLayout>

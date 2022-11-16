@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "775603342007",
+    "firebase_url": "https://databaseac-6707a-default-rtdb.firebaseio.com",
+    "project_id": "databaseac-6707a",
+    "storage_bucket": "databaseac-6707a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775603342007:android:1dee98dfbb00169d4f1b32",
+        "android_client_info": {
+          "package_name": "com.example.kontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775603342007-kccaq1v5q6h8g13kvhdjs9upujfj6g6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKPbUQm-Em3fIP5z3nL1Y29hhTv-7K4Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775603342007-kccaq1v5q6h8g13kvhdjs9upujfj6g6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775603342007:android:b363f34be5dbabab4f1b32",
+        "android_client_info": {
+          "package_name": "com.example.kontrol_ac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775603342007-kccaq1v5q6h8g13kvhdjs9upujfj6g6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKPbUQm-Em3fIP5z3nL1Y29hhTv-7K4Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775603342007-kccaq1v5q6h8g13kvhdjs9upujfj6g6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775603342007:android:db8b97de5657f1914f1b32",
+        "android_client_info": {
+          "package_name": "com.example.kontrolac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775603342007-kccaq1v5q6h8g13kvhdjs9upujfj6g6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKPbUQm-Em3fIP5z3nL1Y29hhTv-7K4Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775603342007-kccaq1v5q6h8g13kvhdjs9upujfj6g6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

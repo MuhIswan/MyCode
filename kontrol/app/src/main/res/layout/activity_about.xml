@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrounds"
+    tools:context=".AboutActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang Aplikasi"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_below="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Version 1.0"
+            android:textSize="12sp"
+            android:id="@+id/txtAndroidVersion"
+            android:padding="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_below="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="105sp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_below="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/article_text"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:padding="30sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/qwert"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu"
+        android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</LinearLayout>
